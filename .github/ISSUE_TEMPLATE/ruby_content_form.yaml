@@ -1,0 +1,57 @@
+name: Ruby Content
+description: For changes to any technical content for Ruby or Rails
+title: "[Ruby]: "
+labels: ["ruby path", "needs review"]
+assignees:
+  - nil
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to make a suggestion!
+  - type: checkboxes
+    id: contributing
+    attributes:
+      label: Checks
+      description: Please fill out the following checkboxes
+      options:
+        - label: I have thoroughly read and understand [The Odin Project Contributing Guide](https://github.com/TheOdinProject/theodinproject/blob/main/CONTRIBUTING.md)
+          required: true
+        - label: I would be like to work on this issue
+          required: false
+  - type: dropdown
+    id: path
+    attributes:
+      label: Path
+      description: Which path does your suggestion affect?
+      options:
+        - Foundations
+        - Ruby / Rails
+        - Node / JS
+        - n/a
+    validations:
+      required: true
+  - type: input
+    id: lesson-link
+    attributes:
+      label: Lesson Url
+      description: A link to the relevant lesson
+      placeholder: ex. https://www.theodinproject.com/lessons/ruby-how-this-course-will-work
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-changes
+    attributes:
+      label: Content Suggestion
+      description: A short description of the change
+      placeholder: ex Add another resource, fix a buggy example
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: (Optional) Discord Name
+      description: Optionally provide your discord name to help co-ordinate changes
+      placeholder: ex. odinite#1234
+    validations:
+      required: false
