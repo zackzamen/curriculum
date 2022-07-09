@@ -39,6 +39,7 @@ Ordered lists are created using the `<ol>` element. Each individual item in them
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
+Its good to know similar to the elements we discussed before, lists can also be nested to show sublists.
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
